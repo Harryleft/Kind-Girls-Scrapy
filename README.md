@@ -1,15 +1,14 @@
 
-King-Girls-Scrapy 是一个用于下载KindGirls网站(https://www.kindgirls.com/)上图片的 Python 爬虫。
+King-Girls-Scrapy 是一个用于下载KindGirls网站(https://www.kindgirls.com/) 上图片的 Python 爬虫。
 
 ## 准备
 
 - Python 3.12
-你需要运行requirements.txt文件安装必要的库：
+- 你需要运行requirements.txt文件安装必要的库：
 ```
 pip install requirements.txt
 ```
-
-然后，你需要下载 Microsoft Edge WebDriver(默认使用)，并WebDriver文件的绝对路径添加到config.py文件中。你可以在这里下载 WebDriver：
+- 下载 Microsoft Edge WebDriver(默认使用)，并WebDriver文件的绝对路径添加到config.py文件中。你可以在这里下载 WebDriver：
 ```
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 ```

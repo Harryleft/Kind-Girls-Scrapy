@@ -1,6 +1,6 @@
-# King-Girls-Scrapy
+# Kind-Girls-Scrapy
 
-King-Girls-Scrapy is a Python crawler designed to download images from the KindGirls website (https://www.kindgirls.com/).
+Kind-Girls-Scrapy is a Python crawler designed to download images from the KindGirls website (https://www.kindgirls.com/).
 
 ## Prerequisites
 

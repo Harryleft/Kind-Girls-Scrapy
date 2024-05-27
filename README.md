@@ -1,39 +1,39 @@
+# King-Girls-Scrapy
 
-King-Girls-Scrapy 是一个用于下载KindGirls网站(https://www.kindgirls.com/) 上图片的 Python 爬虫。
+King-Girls-Scrapy is a Python crawler designed to download images from the KindGirls website (https://www.kindgirls.com/).
 
-## 准备
+## Prerequisites
 
 - Python 3.12
-- 你需要运行requirements.txt文件安装必要的库：
+- You need to install the necessary libraries by running the `requirements.txt` file:
+```bash
+pip install -r requirements.txt
 ```
-pip install requirements.txt
-```
-- 下载 Microsoft Edge WebDriver(默认使用)，并WebDriver文件的绝对路径添加到config.py文件中。你可以在这里下载 WebDriver：
+- Download Microsoft Edge WebDriver (default) and add the absolute path of the WebDriver file to the `config.py` file. You can download the WebDriver here:
 ```
 https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 ```
 
+## Usage
 
-## 使用
+First, set the following parameters in the `config.py` file:
 
-首先，你需要在 `config.py` 文件中设置以下参数：
+- `WEB_DRIVER_PATH`: Path to the WebDriver
+- `START_GIRL_ID`: Starting image ID
+- `END_GIRL_ID`: Ending image ID
 
-- `WEB_DRIVER_PATH`：WebDriver 的路径
-- `START_GIRL_ID`：开始的图片 ID
-- `END_GIRL_ID`：结束的图片 ID
-然后，你可以运行 `main.py` 文件来开始抓取图片：
+Then, you can start the image scraping by running the `main.py` file:
 
 ```bash
 python main.py
 ```
 
-图片会默认下载到`images/images_2024` 目录下,可以在web_driver_handler.py文件中修改第86行代码，实现自定义目录
+Images will be downloaded to the `images/images_2024` directory by default. You can customize the directory by modifying line 86 in the `web_driver_handler.py` file.
 
+## Disclaimer
 
-## 声明
+- This project is for learning and research purposes only. The author is not responsible for any consequences resulting from the use of this project.
 
-- 本项目仅供学习和研究使用，作者不对任何因使用本项目而产生的后果负责。
+## License
 
-## 许可证
-
-本项目采用 MIT 许可证，详情请见 LICENSE 文件
+This project is licensed under the MIT License.

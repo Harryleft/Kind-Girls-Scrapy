@@ -19,8 +19,8 @@ https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 First, set the following parameters in the `config.py` file:
 
 - `WEB_DRIVER_PATH`: Path to the WebDriver
-- `START_GIRL_ID`: Starting image ID
-- `END_GIRL_ID`: Ending image ID
+- `START_GIRL_ID`: Starting image ID, example: https://www.kindgirls.com/gallery.php?`id=11576`
+- `END_GIRL_ID`: Ending image ID, example: https://www.kindgirls.com/gallery.php?`id=11598`
 
 Then, you can start the image scraping by running the `main.py` file:
 
